@@ -1,0 +1,70 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 50px;
+    color: palevioletred;
+    font-weight: 100;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/*cabecalho*/
+header{
+    padding: 30px;
+}
+
+header > .interface {  /* > chama a classe dentro da div*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+
+header a{
+    color: palevioletred;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s ;
+}
+
+header a:hover{ /*muda quando coloca o mouse em cima*/
+    color: pink;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .botao-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: pink;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .botao-contato button:hover{
+    box-shadow: 0px 0px 8px rgb(169, 98, 110);
+
+}
