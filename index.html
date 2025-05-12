@@ -4,50 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfólio</title>
-    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/portfólio/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
     <header>
-        
-        <div class="interface"> <!---interface-->
+        <div class="interface"> 
             <div class="logo">
                 <h1>Wendy</h1>
             </div>
 
-            <nav class="menu"> <!--menu-desktop-->
+            <nav class="menu">
                 <ul>
-                    <li><a href="">Sobre mim</a></li>
-                    <li><a href="">Habilidades</a></li>
-                    <li><a href="">Projetos</a></li>
-                    <li><a href="">Certificações</a></li>
-                    <li><a href="">Currículo</a></li>
+                    <li><a href="#topo">Sobre mim</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#Projetos">Projetos</a></li>
+                    <li><a href="/portfólio/static/Curriculo - Wendy Mininel.pdf" target="_blank">Currículo</a></li>
                 </ul>
             </nav>
-
-            <div class="botao-contato"> <!--botao contato-->
-                <a href="">
-                    <button>Contato</button>
-                </a>
-            </div>
-
         </div>
     </header> 
+
     <main>
-        <section class="topo-do-site">
+        <section class="topo" id="topo">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-home">
-                        <h2>Oi, eu sou a <span>Wendy</span></h2>
-                        <p></p>
-                    </div> <!-- texto e imagem da home-->
+                        <h2>Oi, eu sou a Wendy </h2>
+                        <p><span>✩Sobre mim</span> <br>
+                            Sou estudante de Análise e desenvolvimento de sistemas na faculdade de tecnologia (FATEC). <br> Estou aprendendo a construir a web com HTML, CSS e Python <br> 
+                            <span>✩Objetivos:</span> <br>
+                            Unir programação com criatividade para desenvolver interfaces intuitivas e experiências digitais memoráveis. <br>
+                            Trabalhar em projetos globais de tecnologia que conectem pessoas e resolvam desafios complexos. <br> 
+                            <span>✩Por aqui, você encontra:</span> <br> 
+                            Meus primeiros sites e todos os bugs que cometi no caminho <br>
+                            Como estou evoluindo meu front-end <br>
+                            Descobertas que me deixaram "uau!" no mundo web <br>
+                            <span>✩Fora do código? </span><br>
+                            Maratono séries como se fosse meu trabalho e planejo viagens que talvez nunca faça</p>
+                            <span>✩Entre em contato:</span>
+                    </div>
+
                     <div class="img-home">
-                        <img src="" alt="">
+                        <img src="/portfólio/static/WhatsApp Image 2025-05-03 at 18.08.42.jpeg" alt="foto">
+                    </div>
+                </div>
+            </div>
+                
+            <div class="icones">
+                <a href="https://instagram.com/wendy_mininel" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/WendyMininel" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/wendy-mininel-279300353/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:wendy.mininel@gmail.com" aria-label="Gmail"><i class="fas fa-envelope"></i></a>
+            </div>
+        </section>
+
+        <section class="habilidades" id="habilidades">  
+            <div class="interface"> 
+                <h2 class="titulo"><span>✩</span> Habilidades <span>✩</span></h2>
+                <div class="flex">
+                    <div class="h-box">
+                        <h3>Hard skill</h3>
+                        <p>Gestão de pessoas <br>
+                        Inglês intermediário <br>
+                        Frameworks : Flask <br>
+                        Linguagens : HTML, CSS e Python <br>
+                        Editor de código : VS Code <br>
+                        Design UX/UI</p>
+                    </div>
+                    <div class="h-box">
+                        <h3>Soft skill</h3>
+                        <p>Trabalho em equipe <br>
+                        Criatividade <br>
+                        Colaboração <br>
+                        Organização <br>
+                        Gestão de Tempo <br>
+                        Pensamento Crítico <br></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Projetos" id="Projetos">
+            <div class="interface">
+                <h2 class="titulo"><span>✩</span> Projetos <span>✩</span></h2>
+                <div class="flex">
+                    <div class="p-img">
+                        <img src="/portfólio/static/logo.jpg" alt="">
+                    </div>
+                    <div class="p-text">
+                        <h3>Nome:</h3>
+                        <p>SIRASS- Sistema de Registro de Atestados e Avaliação Scrum </p>
+                        <h3>Sobre:</h3>
+                        <p>Projeto solicitado pela Faculdade de Tecnologia de São José dos Campos cujo tema é Sistema web de registro de alunos com atestados médicos e avaliação de equipes ágeis.</p>
+                        <h3>Como atuei:</h3>
+                        <p>Participei como Scrum Master e fiquei responsável pela página do burndown chart</p>
+                        <h3>Link do repositório no GitHub</h3>
+                        <p><a href="https://github.com/Gabrielle0905/SIRAAS">Sirass</a></p>
                     </div>
                 </div>
             </div>
         </section>
         
+        <footer>
+            <div class="copy">
+                <p>copyright &copy;2025 Wendy Santos Mininel</p>
+            </div>
+        </footer>
+
     </main>  
 </body>
 </html>
