@@ -283,11 +283,12 @@ section.habilidades{
     margin-top: 2rem;
 }
 
-.resumo-box p {
+.resumo-box {
     font-size: 1.2rem;
     color: rgb(125, 78, 100);
     margin-bottom: 1rem;
     line-height: 1.6;
+    text-align: left;
 }  
 
 .botao-meio {
@@ -305,10 +306,6 @@ section.habilidades{
     transition: background-color 0.3s;
     font-size: 1.2rem;
 }
-
-.resumo-box , ul, li {
-    text-align: left;
-}  
 
 .botao:hover {
     background-color: rgb(210, 130, 177);
