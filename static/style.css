@@ -214,16 +214,11 @@ section.habilidades{
     margin: 0.625rem  0;
     font-size: 1.125rem;
     line-height: 1.4;
-    margin-left: 0.9rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
 } 
 
-.Projetos ul, li{
-    color: rgb(125, 78, 100);
-    margin: 0.625rem  0;
-    font-size: 1.125rem;
-    line-height: 1.4;
-    margin-left: 0.9rem;
-}
 
 .Projetos .p-text p a{
     color: rgb(125, 78, 100);
